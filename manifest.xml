@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="blossom-devs"
+            fetch="https://github.com/blossom-devs" />
+
+    <remote name="mt6765-devs"
+            fetch="https://github.com/mt6765-devs" />
+
+    <remote name="arrow-os"
+            fetch="https://github.com/ArrowOS" />
+
+    <!-- Device tree -->
+    <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" groups="device" remote="blossom-devs" />
+
+    <!-- MediaTek -->
+    <project path="device/mediatek/android_device_mediatek_sepolicy_vndr" name="sepolicy_vndr" groups="mediatek" remote="arrow-os" />
+
+    <!-- Kernel tree -->
+    <project path="device/xiaomi/blossom-kernel" name="blossom-kernel" groups="kernel" remote="mt6765-devs" />
+
+    <!-- Vendor tree -->
+    <project path="vendor/xiaomi/blossom" name="vendor_xiaomi_blossom" groups="vendor" remote="blossom-devs" />
+</manifest>
