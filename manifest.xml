@@ -13,7 +13,7 @@
     <project path="device/xiaomi/blossom" name="device_xiaomi_blossom" groups="device" remote="blossom-devs" />
 
     <!-- MediaTek -->
-    <project path="device/mediatek/android_device_mediatek_sepolicy_vndr" name="sepolicy_vndr" groups="mediatek" remote="arrow-os" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" groups="mediatek" remote="arrow-os" />
 
     <!-- Kernel tree -->
     <project path="device/xiaomi/blossom-kernel" name="blossom-kernel" groups="kernel" remote="mt6765-devs" />
